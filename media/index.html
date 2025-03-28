@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html basics 101</title>
+  </head>
+  <body>
+    <section>
+      <h1>My Passion for Football</h1>
+      <picture>
+        <source srcset="../assets/football.jpeg" media="(min-width: 1024px)" />
+      <source srcset="../assets/football.jpeg" media="(min-width: 768px)" />
+      <source srcset="../assets/football.jpeg" media="(max-width: 767px)" />
+        <img
+          src="../assets/football.jpeg"
+          alt="Playing football on the field"
+        />
+      </picture>
+      <video controls poster="football-poster.jpg">
+        <source src="../assets/football.mp4" type="video/mp4" />
+        <source src="../assets/football.mp4" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+    <audio controls>
+      <source src="../assets/football.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+      <p>
+        Football is more than just a game for me—it's a passion that drives me.
+        Whether playing with friends or watching my favorite teams, I love the
+        excitement, strategy, and teamwork involved. The feeling of scoring a
+        goal or making a perfect pass is unmatched, and every game is an
+        opportunity to improve and enjoy the sport I love.
+      </p>
+      <a href="../index.html">Home</a>
+    </section>
+  </body>
+</html>
